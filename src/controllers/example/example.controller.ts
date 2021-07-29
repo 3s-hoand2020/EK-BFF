@@ -1,7 +1,5 @@
-import {
-  Controller, UseInterceptors
-} from "@nestjs/common";
-import { GetExampleService } from "../../service/areas";
+import { Controller, UseInterceptors } from "@nestjs/common";
+import { GetExampleService } from "../../service/example";
 import { GuardExample } from "./example.controller.guard";
 
 @Controller("")
